@@ -1,0 +1,7 @@
+@if (totalCount > pageSize) {
+  <nav class="pagination">
+    <button type="button" (click)="previous()" [disabled]="!hasPrevious">הקודם</button>
+    <span>עמוד {{ page }} מתוך {{ totalPages }}</span>
+    <button type="button" (click)="next()" [disabled]="!hasNext">הבא</button>
+  </nav>
+}

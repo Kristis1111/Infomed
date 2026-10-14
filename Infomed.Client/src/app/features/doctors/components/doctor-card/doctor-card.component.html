@@ -1,0 +1,44 @@
+<article class="card">
+  <div class="main">
+    <h3 class="name">{{ doctor.fullName }}</h3>
+    <div class="rating" [attr.aria-label]="'דירוג ' + doctor.averageRating">
+      <span class="stars">
+        @for (s of stars; track s) {
+          <svg viewBox="0 0 24 24" class="star" [class.on]="s <= doctor.averageRating + 0.25">
+            <path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z" />
+          </svg>
+        }
+      </span>
+      <span class="score">({{ doctor.averageRating | number: '1.1-1' }})</span>
+    </div>
+  </div>
+
+  <div class="info">
+    @if (languageNames) {
+      <p><strong>נותן שירות בשפה:</strong> <span>{{ languageNames }}</span></p>
+    }
+    @if (location) {
+      <p><strong>כתובת:</strong> <span>{{ location }}</span></p>
+    }
+  </div>
+
+  <div class="actions">
+    @if (doctor.phones[0]; as phone) {
+      <a class="btn" [href]="'tel:' + phone">
+        <svg viewBox="0 0 24 24" class="icon"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11 11 0 003.4.55 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.2.2 2.3.55 3.4a1 1 0 01-.25 1z" /></svg>
+        <span dir="ltr">{{ phone }}</span>
+      </a>
+    }
+    <button type="button" class="btn" (click)="contactOpen = true">
+      <svg viewBox="0 0 24 24" class="icon"><path d="M3 17.25V21h3.75L17.8 9.94l-3.75-3.75L3 17.25zM20.7 7.04a1 1 0 000-1.41l-2.34-2.34a1 1 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" /></svg>
+      צור קשר
+    </button>
+  </div>
+</article>
+
+@if (contactOpen) {
+  <app-contact-modal
+    [doctorId]="doctor.id"
+    [doctorName]="doctor.fullName"
+    (closed)="contactOpen = false" />
+}

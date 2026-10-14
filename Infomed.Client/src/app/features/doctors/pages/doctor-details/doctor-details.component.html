@@ -1,0 +1,23 @@
+<section class="details-page">
+  <a routerLink="/doctors" class="back-link">חזרה לתוצאות</a>
+
+  @if (isLoading) {
+    <p>טוען פרטים...</p>
+  }
+  @if (!isLoading && errorMessage) {
+    <p class="error">{{ errorMessage }}</p>
+  }
+
+  @if (!isLoading && doctor; as doctorDetails) {
+    <article class="details-card">
+      <h1>{{ doctorDetails.fullName }}</h1>
+      @for (clinic of doctorDetails.clinics; track clinic) {
+        <p>
+          <strong>כתובת:</strong> {{ clinic.street }}, {{ clinic.cityName }}
+        </p>
+      }
+      <p><strong>דירוג:</strong> {{ doctorDetails.averageRating }} ({{ doctorDetails.totalRatings }} חוות דעת)</p>
+      <p><strong>טלפונים:</strong> {{ doctorDetails.phones.join(' | ') }}</p>
+    </article>
+  }
+</section>

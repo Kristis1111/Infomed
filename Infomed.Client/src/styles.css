@@ -1,0 +1,20 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f9f7;
+  color: #153b38;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}

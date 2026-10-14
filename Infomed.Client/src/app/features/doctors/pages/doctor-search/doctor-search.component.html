@@ -1,0 +1,164 @@
+﻿<div class="search-page">
+  <header class="site-header">
+    <a class="brand" routerLink="/doctors" aria-label="אינפומד - חיפוש רופאים">
+      <img class="brand-logo" src="infomed-logo.png" alt="Infomed Digital Health" />
+    </a>
+    <span class="header-note">מידע רפואי שעוזר לבחור נכון</span>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">מוצאים את הטיפול הנכון</p>
+      <h1>הרופא המתאים לכם, <span>מתחיל כאן</span></h1>
+      <p class="intro-copy">עיינו ברופאים, בדירוגים ובפרטי הקשר ובחרו את מי שמתאים לכם.</p>
+    </section>
+
+    <form class="filter-panel" [formGroup]="form" (ngSubmit)="onSubmitSearch()">
+      <div class="filter-heading">
+        <div>
+          <h2>סינון תוצאות</h2>
+          <p>התאימו את הרשימה למה שחשוב לכם</p>
+        </div>
+      </div>
+
+      <div class="search-inputs">
+        <label class="search-field">
+          <span>שם הרופא</span>
+          <input
+            type="search"
+            formControlName="name"
+            placeholder="הקלידו שם רופא"
+            autocomplete="off"
+            (input)="onNameInput($any($event.target).value)"
+            (focus)="openList.set('name')"
+            (blur)="closeList('name')"
+          />
+          @if (openList() === 'name' && nameSuggestions().length > 0) {
+            <ul class="suggestions" role="listbox">
+              @for (option of nameSuggestions(); track option.id) {
+                <li role="option" (mousedown)="selectSuggestion('name', option, $event)">{{ option.name }}</li>
+              }
+            </ul>
+          }
+        </label>
+
+        <span class="or-divider" aria-hidden="true">או</span><label class="search-field">
+          <span>עיר או מקום</span>
+          <input
+            type="search"
+            formControlName="place"
+            placeholder="הקלידו עיר או כתובת"
+            autocomplete="off"
+            (input)="onPlaceInput($any($event.target).value)"
+            (focus)="openList.set('place')"
+            (blur)="closeList('place')"
+          />
+          @if (openList() === 'place' && placeSuggestions().length > 0) {
+            <ul class="suggestions" role="listbox">
+              @for (option of placeSuggestions(); track option.id) {
+                <li role="option" (mousedown)="selectSuggestion('place', option, $event)">{{ option.name }}</li>
+              }
+            </ul>
+          }
+        </label>
+      <button class="apply-button" type="submit">הצגת תוצאות <span aria-hidden="true">←</span></button>
+      </div>
+
+      @if (filterOptionsError()) {
+        <p class="filter-error" role="alert">{{ filterOptionsError() }}</p>
+      }
+
+      <div class="filter-options">
+        <label class="filter-option">
+          <input type="checkbox" formControlName="activeOnly" />
+          <span class="option-copy">
+            <strong>רופאים פעילים בלבד</strong>
+            <small>הציגו רופאים שמסומנים כפעילים</small>
+          </span>
+        </label>
+
+        <label class="filter-option">
+          <input type="checkbox" formControlName="paidOnly" />
+          <span class="option-copy">
+            <strong>רופאים מקודמים בלבד</strong>
+            <small>הציגו רופאים בתשלום</small>
+          </span>
+        </label>
+        <label class="sort-option">
+          <span>שפה</span>
+          <select formControlName="languageId">
+            <option [ngValue]="null">כל השפות</option>
+            @for (language of languages(); track language.id) {
+              <option [ngValue]="language.id">{{ language.name }}</option>
+            }
+          </select>
+        </label>
+
+        <label class="sort-option">
+          <span>סדרו לפי</span>
+          <select formControlName="sortByRating" aria-label="סדר תוצאות">
+            <option [ngValue]="true">דירוג מטופלים</option>
+            <option [ngValue]="false">רמת קידום</option>
+          </select>
+        </label>
+
+        <label class="sort-option page-size-option">
+          <span>תוצאות בעמוד</span>
+          <select formControlName="pageSize" aria-label="מספר תוצאות בעמוד">
+            <option [ngValue]="12">12</option>
+            <option [ngValue]="24">24</option>
+            <option [ngValue]="48">48</option>
+          </select>
+        </label>
+      </div>
+    </form>
+
+    <section class="results" aria-labelledby="results-title">
+      <div class="results-heading">
+        <div>
+          <p class="eyebrow">תוצאות החיפוש</p>
+          <h2 id="results-title">הרופאים שלנו</h2>
+        </div>
+        <span class="result-count">{{ totalCount() }} <span>רופאים</span></span>
+      </div>
+
+      @if (isLoading()) {
+        <p class="status loading" role="status">טוענים רופאים...</p>
+      }
+      @if (!isLoading() && errorMessage()) {
+        <div class="status error" role="alert">
+          <strong>לא הצלחנו לטעון את התוצאות</strong>
+          <p>{{ errorMessage() }}</p>
+          <button type="button" (click)="onSubmitSearch()">ניסיון נוסף</button>
+        </div>
+      }
+      @if (!isLoading() && !errorMessage() && doctors().length === 0) {
+        <div class="empty-state">
+          <span class="empty-icon" aria-hidden="true">⌕</span>
+          <h3>לא נמצאו רופאים</h3>
+          <p>נסו לשנות את הסינון כדי לראות תוצאות נוספות.</p>
+        </div>
+      }
+
+      @if (!isLoading() && doctors().length > 0) {
+        <div class="cards">
+          @for (doctor of doctors(); track doctor.id) {
+            <app-doctor-card [doctor]="doctor" [languages]="languages()" />
+          }
+        </div>
+      }
+
+      <app-pagination
+        [page]="page"
+        [pageSize]="pageSize"
+        [totalCount]="totalCount()"
+        (pageChange)="onPageChange($event)"
+      />
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>אינפומד</span>
+    <span>המידע באתר אינו תחליף לייעוץ רפואי</span>
+  </footer>
+</div>

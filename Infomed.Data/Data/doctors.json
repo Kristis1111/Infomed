@@ -1,0 +1,1560 @@
+[
+  {
+    "id": 78980,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "מודיעין",
+          "street": "מרכז בריאות שמשוני - מודיעין",
+          "cityId": "757"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "08-9736666",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "2"
+    ],
+    "phones": [
+      {
+        "number": "08-9736666",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "ורדית עפרון",
+    "areaIds": [
+      "3"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 82447,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "חדרה",
+          "street": "המרפאה להיפנוזה, הלל יפה 11",
+          "cityId": "441"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "051-5512589",
+            "phoneType": 1
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "60",
+      "224"
+    ],
+    "phones": [
+      {
+        "number": "051-5512589",
+        "phoneType": 1
+      }
+    ],
+    "subSpecialtiesIds": [
+      "174",
+      "229"
+    ],
+    "languageIds": [
+      "1",
+      "7",
+      "14"
+    ],
+    "fullName": "מיכל ישי",
+    "areaIds": [
+      "5"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 146780,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "רמת גן",
+          "street": "נגבה 59",
+          "cityId": "1230"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "036771530",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "11704"
+    ],
+    "phones": [
+      {
+        "number": "036771530",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "11726"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "שגיא טלמור",
+    "areaIds": [
+      "4"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 135974,
+    "promotionLevel": 8,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "גן יבנה",
+          "street": "אצ\"ל 15",
+          "cityId": "327"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "1766"
+    ],
+    "phones": [
+      {
+        "number": "08-8673331",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "גלית רובין",
+    "areaIds": [
+      "3"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 94816,
+    "promotionLevel": 2,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "כפר ורדים",
+          "street": "שניר 89",
+          "cityId": "633"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "073-7022809",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      },
+      {
+        "id": 0,
+        "address": {
+          "cityName": "רעננה",
+          "street": "מדספייס מרכז גירון ז'בוטינסקי 3",
+          "cityId": "1247"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "073-7022809",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      },
+      {
+        "id": 0,
+        "address": {
+          "cityName": "הרצליה",
+          "street": "מדיקל סנטר, רמת ים 7",
+          "cityId": "408"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "073-7022809",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 5,
+      "averageRating": 5,
+      "totalRatings": 2,
+      "waitingTimeRate": 5,
+      "serviceRate": 5
+    },
+    "mainSpecialtiesIds": [
+      "56"
+    ],
+    "phones": [
+      {
+        "number": "073-7022809",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "162",
+      "214",
+      "11775",
+      "11776",
+      "11777"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "רון סלע",
+    "areaIds": [
+      "5",
+      "6",
+      "8"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 83569,
+    "promotionLevel": 10,
+    "clinics": [],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "47"
+    ],
+    "phones": [
+      {
+        "number": "03-9182200",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "100"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "נטליה שניטמן",
+    "areaIds": [],
+    "isActive": false
+  },
+  {
+    "id": 76620,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "אופקים",
+          "street": "הרצל 3",
+          "cityId": "40"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "08-9960936",
+            "phoneType": 0
+          },
+          {
+            "number": "08-9925750",
+            "phoneType": 2
+          }
+        ],
+        "isActive": true
+      },
+      {
+        "id": 0,
+        "address": {
+          "cityName": "אשקלון",
+          "street": "הגבורה 5",
+          "cityId": "134"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "08-6739222",
+            "phoneType": 0
+          },
+          {
+            "number": "08-6744480",
+            "phoneType": 2
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 3,
+      "averageRating": 2,
+      "totalRatings": 2,
+      "waitingTimeRate": 1,
+      "serviceRate": 3
+    },
+    "mainSpecialtiesIds": [
+      "46"
+    ],
+    "phones": [
+      {
+        "number": "0737023487",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "92"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "ארקדי ורשבסקי",
+    "areaIds": [
+      "2"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 131510,
+    "promotionLevel": 8,
+    "clinics": [],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "2043"
+    ],
+    "phones": [
+      {
+        "number": "052-3066588",
+        "phoneType": 1
+      }
+    ],
+    "subSpecialtiesIds": [
+      "6890",
+      "7517"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "ערן  שדה",
+    "isActive": false
+  },
+  {
+    "id": 76824,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "רמת גן",
+          "street": "ז'בוטינסקי 35 בניין התאומים 2 לובי",
+          "cityId": "1230"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "073-7592613",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "11704"
+    ],
+    "phones": [
+      {
+        "number": "073-7592613",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "11726"
+    ],
+    "languageIds": [
+      "1",
+      "2",
+      "3",
+      "14"
+    ],
+    "fullName": "בכור משיח \"חיוך פלוס\"",
+    "areaIds": [
+      "9",
+      "4",
+      "7"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 85982,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "ראש העין",
+          "street": "נווה אפק-רופאים עצמאיים - ראש העין",
+          "cityId": "1196"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "0737593610",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      },
+      {
+        "id": 0,
+        "address": {
+          "cityName": "כפר קאסם",
+          "street": "ש.ר.ד-רופאים עצמאיים - כפר קאסם",
+          "cityId": "674"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "03-5772450",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      },
+      {
+        "id": 0,
+        "address": {
+          "cityName": "בני ברק",
+          "street": "קונקורד-עיניים כללי - בני ברק     ‎",
+          "cityId": "216"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "03-5772450",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "53"
+    ],
+    "phones": [
+      {
+        "number": "03-5772450",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "145"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "רומיק דג'נוב",
+    "areaIds": [
+      "4",
+      "5"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 144506,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "רחובות",
+          "street": "אלי הורוביץ 12",
+          "cityId": "1215"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "פנדה",
+        "phones": [],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "54"
+    ],
+    "phones": [],
+    "subSpecialtiesIds": [
+      "1759"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "גיל צ'רנין",
+    "areaIds": [
+      "3"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 79020,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "קרית אונו",
+          "street": "מרכז מסחרי רימון",
+          "cityId": "1176"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "03-5345486",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 2,
+      "averageRating": 2,
+      "totalRatings": 2,
+      "waitingTimeRate": 2,
+      "serviceRate": 2
+    },
+    "mainSpecialtiesIds": [
+      "11704"
+    ],
+    "phones": [
+      {
+        "number": "03-5345486",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "11726"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "זאב זיגנר",
+    "areaIds": [
+      "4"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 146097,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "תל אביב יפו",
+          "street": "הברזל 9 א'",
+          "cityId": "1344"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "073-7022396",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "52"
+    ],
+    "phones": [
+      {
+        "number": "073-7022396",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "143"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "שרון באום",
+    "areaIds": [
+      "9"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 130034,
+    "promotionLevel": 8,
+    "clinics": [],
+    "reviews": {
+      "professionalismRate": 3,
+      "averageRating": 4,
+      "totalRatings": 3,
+      "waitingTimeRate": 4,
+      "serviceRate": 4
+    },
+    "mainSpecialtiesIds": [
+      "2002"
+    ],
+    "phones": [
+      {
+        "number": "052-3500094",
+        "phoneType": 1
+      }
+    ],
+    "subSpecialtiesIds": [
+      "2745",
+      "3543"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "עמירם  קאופמן",
+    "isActive": false
+  },
+  {
+    "id": 80664,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "חולון",
+          "street": "פיירברג - חולון",
+          "cityId": "445"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "03-5020900",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "60"
+    ],
+    "phones": [
+      {
+        "number": "03-5020900",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "174"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "ינינה בזמן",
+    "areaIds": [
+      "4"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 85239,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "נשר",
+          "street": "הזית 27 דירה 5",
+          "cityId": "972"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "054-3476252",
+            "phoneType": 1
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "11704"
+    ],
+    "phones": [
+      {
+        "number": "054-3476252",
+        "phoneType": 1
+      }
+    ],
+    "subSpecialtiesIds": [
+      "11726"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "פליקס גויכמן",
+    "areaIds": [
+      "8"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 94516,
+    "promotionLevel": 5,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "הרצליה",
+          "street": "החושלים 8, הרצליה  מדיקל סנטר",
+          "cityId": "408"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "073-7599071",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      },
+      {
+        "id": 0,
+        "address": {
+          "cityName": "הרצליה",
+          "street": "טלפון נוסף",
+          "cityId": "408"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "09-9592555",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 5,
+      "averageRating": 5,
+      "totalRatings": 7,
+      "waitingTimeRate": 5,
+      "serviceRate": 5
+    },
+    "mainSpecialtiesIds": [
+      "57",
+      "54",
+      "11586"
+    ],
+    "phones": [
+      {
+        "number": "073-7599071",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "167",
+      "148"
+    ],
+    "languageIds": [
+      "1",
+      "14"
+    ],
+    "fullName": "הווארד עמיטל",
+    "areaIds": [
+      "3",
+      "4",
+      "5"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 94052,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "תל אביב יפו",
+          "street": "פנחס רוזן 43",
+          "cityId": "1344"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "054-2138822",
+            "phoneType": 1
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 5,
+      "averageRating": 5,
+      "totalRatings": 23,
+      "waitingTimeRate": 5,
+      "serviceRate": 5
+    },
+    "mainSpecialtiesIds": [
+      "55"
+    ],
+    "phones": [
+      {
+        "number": "054-2138822",
+        "phoneType": 1
+      }
+    ],
+    "subSpecialtiesIds": [
+      "155"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "יאנה בייטלמן",
+    "areaIds": [
+      "9",
+      "5"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 130624,
+    "promotionLevel": 8,
+    "clinics": [],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "2007",
+      "2022"
+    ],
+    "phones": [],
+    "subSpecialtiesIds": [
+      "3947"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "עוזית  דגן",
+    "isActive": false
+  },
+  {
+    "id": 87459,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "רחובות",
+          "street": "אייזנברג 14",
+          "cityId": "1215"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "קליניקה",
+        "phones": [],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "40",
+      "47"
+    ],
+    "phones": [
+      {
+        "number": "089471036",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "62",
+      "64",
+      "100"
+    ],
+    "languageIds": [
+      "1",
+      "14"
+    ],
+    "fullName": "יגאל ברק",
+    "areaIds": [],
+    "isActive": false
+  },
+  {
+    "id": 88210,
+    "promotionLevel": 8,
+    "clinics": [],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "22"
+    ],
+    "phones": [
+      {
+        "number": "03-7313169",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "רחל דורי",
+    "isActive": false
+  },
+  {
+    "id": 88212,
+    "promotionLevel": 8,
+    "clinics": [],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "22"
+    ],
+    "phones": [
+      {
+        "number": "08-9222907",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "רובי דן-כץ",
+    "isActive": false
+  },
+  {
+    "id": 88015,
+    "promotionLevel": 8,
+    "clinics": [],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "181"
+    ],
+    "phones": [
+      {
+        "number": "09-7601490",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "מיכל זהר",
+    "isActive": false
+  },
+  {
+    "id": 92358,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "חולון",
+          "street": "שפרינצק 19",
+          "cityId": "445"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "60"
+    ],
+    "phones": [
+      {
+        "number": "03-5038036",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "174"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "פירה ברון",
+    "areaIds": [
+      "4"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 131538,
+    "promotionLevel": 8,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "נשר",
+          "street": "נתיב הים 32",
+          "cityId": "972"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "0522790349",
+            "phoneType": 1
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "2011"
+    ],
+    "phones": [
+      {
+        "number": "0522790349",
+        "phoneType": 1
+      }
+    ],
+    "subSpecialtiesIds": [
+      "3951",
+      "4350",
+      "4521",
+      "6060",
+      "6402",
+      "7485"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "אירית גיל לב",
+    "areaIds": [],
+    "isActive": false
+  },
+  {
+    "id": 84527,
+    "promotionLevel": 10,
+    "clinics": [],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "2"
+    ],
+    "phones": [
+      {
+        "number": "03-9395230",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "עדי דהרי",
+    "areaIds": [],
+    "isActive": false
+  },
+  {
+    "id": 133834,
+    "promotionLevel": 8,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "נס ציונה",
+          "street": "עונות השנה 6",
+          "cityId": "959"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "054-3093096",
+            "phoneType": 1
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 1,
+      "averageRating": 1,
+      "totalRatings": 3,
+      "waitingTimeRate": 1,
+      "serviceRate": 1
+    },
+    "mainSpecialtiesIds": [
+      "2002"
+    ],
+    "phones": [
+      {
+        "number": "054-3093096",
+        "phoneType": 1
+      }
+    ],
+    "subSpecialtiesIds": [
+      "2745",
+      "3087",
+      "3144",
+      "3258",
+      "3486"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "שוש  מעוז אריה",
+    "isActive": false
+  },
+  {
+    "id": 82946,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "ראשון לציון",
+          "street": "בלפור - ראשון לציון",
+          "cityId": "1199"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "03-9598300",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 5,
+      "averageRating": 5,
+      "totalRatings": 1,
+      "waitingTimeRate": 5,
+      "serviceRate": 5
+    },
+    "mainSpecialtiesIds": [
+      "60"
+    ],
+    "phones": [
+      {
+        "number": "039590303",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "174"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "מרינה אליוכין",
+    "areaIds": [
+      "4"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 79856,
+    "promotionLevel": 5,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "זכרון יעקב",
+          "street": "מייסדים 51",
+          "cityId": "423"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "קליניקה פרטית",
+        "phones": [
+          {
+            "number": "073-7021123",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      },
+      {
+        "id": 0,
+        "address": {
+          "cityName": "חדרה",
+          "street": "דגני - קופ\"ח",
+          "cityId": "441"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "073-7586092",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 5,
+      "averageRating": 5,
+      "totalRatings": 2,
+      "waitingTimeRate": 5,
+      "serviceRate": 5
+    },
+    "mainSpecialtiesIds": [
+      "53"
+    ],
+    "phones": [
+      {
+        "number": "0737020733",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [
+      "145",
+      "244",
+      "11669"
+    ],
+    "languageIds": [
+      "1",
+      "9",
+      "14"
+    ],
+    "fullName": "יאיר פורגס",
+    "areaIds": [
+      "3",
+      "5",
+      "8"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 86533,
+    "promotionLevel": 10,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "חולון",
+          "street": "הסנהדרין - חולון",
+          "cityId": "445"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "03-5024800",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 0,
+      "averageRating": 0,
+      "totalRatings": 0,
+      "waitingTimeRate": 0,
+      "serviceRate": 0
+    },
+    "mainSpecialtiesIds": [
+      "2"
+    ],
+    "phones": [
+      {
+        "number": "035024030",
+        "phoneType": 0
+      }
+    ],
+    "subSpecialtiesIds": [],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "רפאלה קילון",
+    "areaIds": [
+      "4"
+    ],
+    "isActive": false
+  },
+  {
+    "id": 85550,
+    "promotionLevel": 2,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "תל אביב יפו",
+          "street": "הברזל 11, מתחם בי\"ח אסותא רמת החייל",
+          "cityId": "1344"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "מרכז איה מדיקל-המרכז לרפואת נשים מתקדמת",
+        "phones": [
+          {
+            "number": "073-7028716",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 5,
+      "averageRating": 5,
+      "totalRatings": 1,
+      "waitingTimeRate": 5,
+      "serviceRate": 5
+    },
+    "mainSpecializationsIds": [
+      "46"
+    ],
+    "phones": [
+      {
+        "number": "073-7028716",
+        "phoneType": 0
+      }
+    ],
+    "subSpecializationsIds": [
+      "217"
+    ],
+    "languageIds": [
+      "1",
+      "7",
+      "14"
+    ],
+    "fullName": "קובי כהן",
+    "areaIds": [
+      "9",
+      "4"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 144646,
+    "promotionLevel": 2,
+    "clinics": [
+      {
+        "id": 0,
+        "address": {
+          "cityName": "תל אביב יפו",
+          "street": "החשמונאים 117",
+          "cityId": "1344"
+        },
+        "dateCreated": "0001-01-01T00:00:00",
+        "name": "",
+        "phones": [
+          {
+            "number": "073-7028706",
+            "phoneType": 0
+          }
+        ],
+        "isActive": true
+      }
+    ],
+    "reviews": {
+      "professionalismRate": 5,
+      "averageRating": 5,
+      "totalRatings": 1,
+      "waitingTimeRate": 5,
+      "serviceRate": 5
+    },
+    "mainSpecializationsIds": [
+      "11582"
+    ],
+    "phones": [
+      {
+        "number": "073-7028706",
+        "phoneType": 0
+      }
+    ],
+    "subSpecializationsIds": [
+      "11584"
+    ],
+    "languageIds": [
+      "14"
+    ],
+    "fullName": "דוד שרים ושות'",
+    "areaIds": [
+      "9"
+    ],
+    "isActive": true
+  }
+]

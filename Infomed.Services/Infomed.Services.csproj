@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infomed.Core\Infomed.Core.csproj" />
+    <ProjectReference Include="..\Infomed.Data\Infomed.Data.csproj" />
+    <ProjectReference Include="..\Infomed.Domain\Infomed.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
