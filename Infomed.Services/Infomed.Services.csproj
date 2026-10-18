@@ -12,4 +12,8 @@
     <ProjectReference Include="..\Infomed.Domain\Infomed.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.11.0" />
+  </ItemGroup>
+
 </Project>

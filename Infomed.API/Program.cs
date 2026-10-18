@@ -5,8 +5,10 @@ using Infomed.Data.Doctors;
 using Infomed.Data.DropDowns;
 using Infomed.Domain.AutoMapper.Profiles;
 using Infomed.Services.Autocomplete;
+using Infomed.Services.Chat;
 using Infomed.Services.Doctors;
 using Infomed.Services.DropDowns;
+using Microsoft.Extensions.AI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,11 +41,33 @@ builder.Services.AddScoped<IAutocompleteService, AutocompleteService>();
 builder.Services.AddScoped<IAutocompleteDataService, AutocompleteDataJsonService>();
 builder.Services.AddScoped<IDropDownService, DropDownService>();
 builder.Services.AddScoped<IDropDownDataService, DropDownDataService>();
+builder.Services.AddScoped<DoctorChatService>();
+
 // Singleton on purpose - so all requests share the same file-write lock
 builder.Services.AddSingleton<IContactRequestDataService, ContactRequestJsonService>();
 
 //  Should be Redis
 builder.Services.AddSingleton<IApplicationCache, InMemoryApplicationCache>();
+
+
+var apiKey = builder.Configuration["OpenAI:ApiKey"] ?? "gpt-4o-mini";
+
+var model = builder.Configuration["OpenAI:Model"] ?? throw new InvalidOperationException("OpenAI:Model is missing.");
+
+builder.Services.AddSingleton<IChatClient>(_ =>
+{
+    var providerClient = new OpenAI.Chat.ChatClient(model, apiKey);
+
+    return new ChatClientBuilder(providerClient.AsIChatClient())
+        .UseFunctionInvocation(configure: client =>
+        {
+            client.MaximumIterationsPerRequest = 3;
+            client.AllowConcurrentInvocation = false;
+            client.IncludeDetailedErrors = false;
+        })
+        .Build();
+});
+
 
 var app = builder.Build();
 
